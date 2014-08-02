@@ -1,6 +1,15 @@
 icheck-rails
 =======================
 
+### Outdated
+A current alternative would to be to use [rails-assets](https://rails-assets.org/)
+
+    gem 'rails-assets-iCheck'
+        or
+    gem 'rails-assets-jquery-icheck'
+
+
+
 [iCheck](http://damirfoy.com/iCheck/) is a library for creating super customized checkboxes and radio buttons with JQuery & Zepto.
 This [Gem](http://rubygems.org/) packages iCheck for [Ruby](http://www.ruby-lang.org) on
 [Rails'](http://rubyonrails.org/) [asset pipeline](http://guides.rubyonrails.org/asset_pipeline.html)
@@ -92,5 +101,3 @@ $(function(){
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-
